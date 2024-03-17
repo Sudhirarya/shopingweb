@@ -1,0 +1,78 @@
+body{
+  font-family: 'Rubik', sans-serif;
+  background-color: rgb(245, 241, 234);
+  font-family: 'Roboto', sans-serif;
+}
+.CardDisplay{
+    margin: 0rem auto;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  
+  }
+  .CardDisplay img{
+    height: 200px;
+  }
+  
+ .card{
+  
+  box-shadow: 2px 1px 2px rgb(240, 159, 20);
+ }
+ .active{
+  background-color: darkred;
+  border-radius: 5px;
+}
+
+  .footer {
+    margin: 0rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .footer-cont {
+    max-width: 400px;
+    min-width: 280px;
+  }
+  .anima{
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+    
+  }
+
+#navbar{
+  
+  background-color:rgb(0, 0, 0);
+  padding-top:10px ;
+  box-shadow: 1px 1px 5px blue;
+ 
+}
+
+#link{
+  color: rgb(245, 241, 234);
+  font-size:large;
+}
+.logo{
+  width: 180px;
+}
+.carousel{
+  box-shadow: 1px 1px 5px blue;
+}
+.footer_outer{
+  color: rgb(245, 241, 234);
+  background-color: rgb(0, 0, 0);
+}
+@media screen and (max-width:600px) {
+  .cardo{
+    width: 250px;
+  }
+  
+}
+:hover.nav-item{
+  background-color: darkred;
+  border-radius: 5px;
+}
