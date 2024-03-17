@@ -2,7 +2,7 @@ import './App.css'
 import { CartProvider, useCart } from "react-use-cart";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Comp/Home/Navbar';
-import Home from './Comp/Home';
+import Home from './Comp/Home/Home';
 import Woman from './Comp/Woman/Woman'
 import Mans from './Comp/Man/Mans'
 import Scart from './Card/Scart';
