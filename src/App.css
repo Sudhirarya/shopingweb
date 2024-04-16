@@ -13,14 +13,43 @@ body{
     gap: 2rem;
   
   }
-  .CardDisplay img{
-    height: 200px;
-  }
+  
   
  .card{
   
-  box-shadow: 2px 1px 2px rgb(240, 159, 20);
+  box-shadow: 1px 1px 5px rgb(110, 110, 110);
  }
+ .card-img{
+  height: 250px;
+  overflow: hidden;
+ }
+ .card-img1{
+  width: 100%;
+ }
+.card-titale{
+  margin: 5px;
+  margin-left: 15px;
+}
+.brand{
+  color: cadetblue;
+  font-size: 14px;
+}
+.Curr-rate{
+  text-decoration:line-through;
+}
+.dis{
+  background-color: red;
+  border-radius: 5px;
+  padding: 2px;
+}
+.Sixet{
+  border: 1px solid;
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgb(160, 207, 209);
+}
 
   .footer {
     margin: 0rem auto;
